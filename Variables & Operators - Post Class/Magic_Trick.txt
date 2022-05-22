@@ -1,0 +1,16 @@
+class Main {
+	public static void main (String[] args) {
+
+        int x=5;
+        Scanner sc=new Scanner(System.in);
+        int A=sc.nextInt();
+        int y=x+A;
+        int r=y+y;
+        int B=sc.nextInt();
+        int c=B+r;
+        int d=c/2;
+        int e=d-x;
+        System.out.print(e);
+
+	}
+}
