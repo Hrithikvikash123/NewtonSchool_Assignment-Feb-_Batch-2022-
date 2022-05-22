@@ -1,0 +1,15 @@
+class Main {
+	public static void main (String[] args) {
+      Scanner sc=new Scanner(System.in);
+      int D=sc.nextInt();
+      int Q=sc.nextInt();
+
+    try{
+        System.out.print(D/Q);
+    }
+    catch(ArithmeticException e){
+         System.out.print("-1");
+    }
+
+	}
+}
