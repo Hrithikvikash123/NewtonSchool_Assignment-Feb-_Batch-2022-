@@ -1,0 +1,9 @@
+class Main {
+	public static void main (String[] args) {
+      Scanner sc=new Scanner(System.in);
+	int C=sc.nextInt();
+	int S=sc.nextInt();
+	int P=(S-C);
+	System.out.println(P);
+	}
+}
